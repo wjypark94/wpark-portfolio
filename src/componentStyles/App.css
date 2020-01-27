@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*****/
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column; 
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+
+}
+
+  .dropdown-menu {
+    position: static;
+    float: none;
+  }
+
+    .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
