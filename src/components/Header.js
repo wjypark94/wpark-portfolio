@@ -7,7 +7,7 @@ class Header extends Component {
 	render() {
 		let Link = Scroll.Link;
 		return (
-			<div className="container pt-5">
+			<div className="container pt-5 hero">
 				<div className="row">
 					<Fade bottom>
 					<div className="col-12 py-3 header-title">
