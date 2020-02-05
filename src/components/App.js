@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './NavBar';
 import Header from './Header';
 import RecentWork from './RecentWork';
+import PastProjects from './PastProjects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 		<NavBar/>
 		<Header/>
 		<RecentWork/>
+		<PastProjects/>
 
     </div>
   );
