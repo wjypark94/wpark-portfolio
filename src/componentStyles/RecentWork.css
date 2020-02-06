@@ -16,8 +16,32 @@
 }
 
 @media screen and (min-width: 768px){
-	.work-img { height: 300px; }
+	.work-img { height: 275px; }
 	.work-title { font-size: 1.250rem; }
+}
+
+@media screen and (min-width: 2000px){
+	.work-img { height: 300px; }
+}
+
+/* .img-col {
+	background-color: #f1f0ee;
+} */
+
+.semihandmade-col {
+	background-color: #D2B48C;
+}
+
+.laloop-col {
+	background-color: #E6E6FA;
+}
+
+.ymy-col {
+	background-color: #d2dfd1;
+}
+
+.singnasium-col {
+	background-color: #ffcccc;
 }
 
 .position-header {
