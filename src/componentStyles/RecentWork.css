@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width: 768px){
-	.work-img { height: 275px; }
+	.work-img { height: 250px; }
 	.work-title { font-size: 1.250rem; }
 }
 

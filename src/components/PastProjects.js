@@ -13,7 +13,7 @@ class PastProjects extends Component{
 
 				<div class="row mx-0 mx-lg-5 mb-5">
 					<div class="col-6">
-						<div class="row work-border">
+						<div class="row work-border mr-1">
 							<div class="col-12">
 								App
 							</div>
@@ -23,7 +23,7 @@ class PastProjects extends Component{
 						</div>
 					</div>
 					<div class="col-6">
-						<div class="row work-border">
+						<div class="row work-border ml-1">
 							<div class="col-12">
 								App
 							</div>
@@ -32,8 +32,36 @@ class PastProjects extends Component{
 							</div>
 						</div>
 					</div>
-					
 				</div>
+
+
+				<div class="row mx-0 mx-lg-5 mb-5">
+					<div class="col-6">
+						<div class="row work-border mr-1">
+							<div class="col-12">
+								App
+							</div>
+							<div class="col-12">
+								App description
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="row work-border ml-1">
+							<div class="col-12">
+								App
+							</div>
+							<div class="col-12">
+								App description
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+
+
+
 			</div>
 		)
 	}

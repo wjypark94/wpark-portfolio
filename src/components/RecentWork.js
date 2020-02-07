@@ -15,7 +15,7 @@ class RecentWork extends Component {
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
-					<div className="col-12 col-md-6 py-5 semihandmade-col">
+					<div className="col-12 col-md-6 py-3 semihandmade-col">
 					 	<img className="work-img img-fluid" src={Semihandmade} alt="semihandmade"/>
 					</div>
 					<div className="col-12 col-md-6 py-5">
@@ -26,7 +26,7 @@ class RecentWork extends Component {
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
-					<div className="col-12 col-md-6 py-5 laloop-col">
+					<div className="col-12 col-md-6 py-3 laloop-col">
 						<img className="work-img img-fluid" src={Laloop} alt="laloop"/>
 					</div>
 					<div className="col-12 col-md-6 py-5">
@@ -36,7 +36,7 @@ class RecentWork extends Component {
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
-					<div className="col-12 col-md-6 py-5 ymy-col">
+					<div className="col-12 col-md-6 py-3 ymy-col">
 						<img className="work-img img-fluid" src={Ymy} alt="ymy"/>
 					</div>
 					<div className="col-12 col-md-6 py-5">
@@ -46,7 +46,7 @@ class RecentWork extends Component {
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
-					<div className="col-12 col-md-6 py-5 singnasium-col">
+					<div className="col-12 col-md-6 py-3 singnasium-col">
 						<img className="work-img img-fluid" src={Singnasium} alt="singnasium"/>
 					</div>
 					<div className="col-12 col-md-6 py-5">
