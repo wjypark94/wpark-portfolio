@@ -66,13 +66,13 @@
   align-items: center;
 }
 
-.work-title {
+.work-title, .card-title {
 	font-family: 'Source Sans Pro', sans-serif;
     color: #333;
     font-weight: 600;
 }
 
-.work-paragraph {
+.work-paragraph, .card-text {
 	font-family: 'Source Sans Pro', sans-serif;
     color: #333;
     font-weight: 300;

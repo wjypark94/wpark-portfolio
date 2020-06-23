@@ -5,3 +5,8 @@
 	font-weight: 700;
 	letter-spacing: 1.5px;
 }
+
+.card {
+	box-shadow: 2px 2px 18px 0 #e2e2e2;
+	border: none;
+}
