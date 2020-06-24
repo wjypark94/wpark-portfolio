@@ -12,14 +12,14 @@ class NavBar extends Component {
 			<div className="container-fluid px-0">
 				<Fade top>
 					<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-						<Navbar.Brand href="#home">WP</Navbar.Brand>
+						<Navbar.Brand href="/">WP</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 						<Navbar.Collapse id="responsive-navbar-nav">
 							<Nav className="ml-auto">
 								<Nav.Link href="#work">Work</Nav.Link>
-								<Nav.Link href="#about">About</Nav.Link>
-								<Nav.Link href="#resume">Resume</Nav.Link>
-								<Nav.Link href="#contact">Contact</Nav.Link>
+								<Nav.Link href="/about">About</Nav.Link>
+								<Nav.Link href="/resume">Resume</Nav.Link>
+								<Nav.Link href="/contact">Contact</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Navbar>

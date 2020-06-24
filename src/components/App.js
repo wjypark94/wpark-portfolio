@@ -5,14 +5,36 @@ import NavBar from './NavBar';
 import Header from './Header';
 import RecentWork from './RecentWork';
 import PastProjects from './PastProjects';
+import About from './About';
+
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
 		<NavBar/>
-		<Header/>
-		<RecentWork/>
-		<PastProjects/>
+		
+		<Router>
+			<Switch>
+				<Route exact path ="/">
+					<Header/>
+					<RecentWork/>
+					<PastProjects/>
+				</Route>
+				<Route exact path ="/about">
+					<About/>
+				</Route>
+			</Switch>
+		</Router>
+
+
+
+
 
     </div>
   );
