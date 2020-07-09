@@ -6,6 +6,7 @@ import Header from './Header';
 import RecentWork from './RecentWork';
 import PastProjects from './PastProjects';
 import About from './About';
+import Contact from './Contact';
 
 import {
 	BrowserRouter as Router,
@@ -28,6 +29,9 @@ function App() {
 				</Route>
 				<Route exact path ="/about">
 					<About/>
+				</Route>
+				<Route exact path = "/contact">
+					<Contact/>
 				</Route>
 			</Switch>
 		</Router>
