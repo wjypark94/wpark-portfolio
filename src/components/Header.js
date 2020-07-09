@@ -11,8 +11,8 @@ class Header extends Component {
 				<div className="row">
 					<Fade bottom>
 					<div className="col-12 py-3 header-title">
-						<h2>Hi, my name is Will Park and</h2>
-						<h2>I'm a front end web developer.</h2>
+						<h2>Hi, I'm Will Park</h2>
+						<h2>I'm a Front End Web Developer based in Los Angeles.</h2>
 					</div>
 					</Fade>
 					<div class="col-12 pb-3">
