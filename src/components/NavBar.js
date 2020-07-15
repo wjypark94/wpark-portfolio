@@ -18,8 +18,7 @@ class NavBar extends Component {
 							<Nav className="ml-auto">
 								<Nav.Link href="#work">Work</Nav.Link>
 								<Nav.Link href="/about">About</Nav.Link>
-								<Nav.Link href="/resume">Resume</Nav.Link>
-								<Nav.Link href="/contact">Contact</Nav.Link>
+								<Nav.Link href="https://drive.google.com/file/d/1fDTHifZDmA5G6ltCooWCJCysNwXwQR0M/view?usp=sharing" target="_blank">Resume</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Navbar>
