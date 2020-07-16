@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../componentStyles/Header.css';
 import Scroll from 'react-scroll';
 import Fade from 'react-reveal/Fade';
+import Avatar from '../images/avatar.png';
+import Ymy from '../images/ymy.png';
 
 class Header extends Component {
 	render() {
@@ -15,10 +17,14 @@ class Header extends Component {
 						<h2>I'm a Front End Web Developer based in Los Angeles.</h2>
 					</div>
 					</Fade>
+					<div class="col-12 text-center">
+						<img className="work-img img-fluid" src={Avatar} alt="ymy"/>
+					</div>
 					<div class="col-12 pb-3">
 						<a href="/">View recent work</a>
 					</div>
 				</div>
+				
 				<Fade bottom>
 					<div class="row">
 						<div className="col-12 arrow-wrapper w-100">
