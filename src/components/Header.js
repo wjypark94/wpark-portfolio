@@ -20,7 +20,7 @@ class Header extends Component {
 					<div class="col-12 text-center">
 						<img className="work-img img-fluid" src={Avatar} alt="ymy"/>
 					</div>
-					<div class="col-12 pb-3">
+					<div class="col-12 py-3">
 						<a href="/">View recent work</a>
 					</div>
 				</div>
