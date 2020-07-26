@@ -18,4 +18,13 @@
 	h3 { font-size: 1.5rem; }
 }
 
+.icon {
+	width: 36px;
+	height: 36px;
+	background-color: black;
+	border-radius: 50%;
+	vertical-align: middle;
+	padding: 10px;
 
+
+}
