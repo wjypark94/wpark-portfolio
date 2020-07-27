@@ -21,15 +21,12 @@ class Header extends Component {
 						<img className="work-img img-fluid" src={Avatar} alt="ymy"/>
 					</div>
 
-					<div class="col-12">
-						<a class="px-3" href="mailto:wjypark94@gmail.com"><i class="icon fa fa-envelope"></i></a>
-						<a class="px-3" href="https://github.com/wjypark94"><i class="icon fa fa-github-alt"></i></a>
-						<a class="px-3" href="https://www.linkedin.com/in/wjypark"><i class="icon fa fa-linkedin"></i></a>
+					<div class="col-12 py-3">
+						<a class="px-2" href="mailto:wjypark94@gmail.com" target="_blank"><i class="icon fa fa-envelope"></i></a>
+						<a class="px-2" href="https://github.com/wjypark94" target="_blank"><i class="icon fa fa-github-alt"></i></a>
+						<a class="px-2" href="https://www.linkedin.com/in/wjypark" target="_blank"><i class="icon fa fa-linkedin"></i></a>
 					</div>
 					 
-					<div class="col-12 py-3">
-						<a href="/">View recent work</a>
-					</div>
 				</div>
 				
 				<Fade bottom>
