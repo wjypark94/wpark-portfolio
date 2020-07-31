@@ -29,7 +29,7 @@ class Header extends Component {
 					 
 				</div>
 				
-				<Fade bottom>
+				{/* <Fade bottom>
 					<div class="row">
 						<div className="col-12 arrow-wrapper w-100">
 							<Link to="about" offset={-40} spy={true} smooth={true} duration={700}>
@@ -37,7 +37,7 @@ class Header extends Component {
 							</Link>
 						</div>
 					</div>
-				</Fade>
+				</Fade> */}
 
 			</div>
 
