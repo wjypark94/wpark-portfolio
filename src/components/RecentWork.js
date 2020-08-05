@@ -22,7 +22,7 @@ class RecentWork extends Component {
 						<h3 className=" text-uppercase position-header">Front End Development + Design</h3>
 						<h2 className="work-title">Semihandmade</h2>
 						<p className="m-0 work-paragraph">Developed and implemented front end features for Semihandmade, a Shopify Plus client that makes custom doors for Ikea kitchen cabinets, bathroom, media and storage systems.</p>
-						<a className="mt-auto" href="https://www.semihandmade.com/" target="_blank">Website</a>
+						<a className="mt-auto" href="https://www.semihandmade.com/" target="_blank">View Site</a>
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
@@ -33,7 +33,7 @@ class RecentWork extends Component {
 						<h3 className="text-uppercase position-header">Front End Development + Design</h3>
 						<h2 className="work-title">La Loop</h2>
 						<p className="m-0 work-paragraph">Developed and implemented front end features for La Loop, a Shopify client that creates and designs eyewear accessories for users. </p>
-						<a className="mt-auto" href="https://laloop.com/" target="_blank">Website</a>
+						<a className="mt-auto" href="https://laloop.com/" target="_blank">View Site</a>
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
@@ -44,7 +44,7 @@ class RecentWork extends Component {
 						<h3 className="text-uppercase position-header">Front End Development + Design</h3>
 						<h2 className="work-title">Yamamotoyama</h2>
 						<p className="m-0 work-paragraph">Developed and implemented front end features for Yamamotoyama USA, a Shopify client that specializes in providing the finest teas and nori all over the world.</p>
-						<a className="mt-auto">Website</a>
+						<a className="mt-auto" href="https://dev-ymy.myshopify.com/" target="_blank">View Site</a>
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
@@ -55,7 +55,7 @@ class RecentWork extends Component {
 						<h3 className="text-uppercase position-header">Front End Development + Design</h3>
 						<h2 className="work-title">Singnasium</h2>
 						<p className="m-0 work-paragraph">Developed and implemented front end features for Singnasium, a Shopify client that provides safe, non judgmental place for NYC artists and singers to explore their creative selves.</p>
-						<a className="mt-auto            ">Website</a>
+						<a className="mt-auto" href="https://singnasium.org/" target="_blank">View Site</a>
 					</div>
 				</div>
 			</div>
