@@ -8,6 +8,7 @@ import Scroll from "react-scroll";
 
 class NavBar extends Component {
 	render(){
+		let Link = Scroll.Link;
 		return (
 			<div className="container-fluid px-0">
 				<Fade top>
