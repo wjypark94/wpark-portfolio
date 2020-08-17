@@ -78,7 +78,7 @@
     font-weight: 300;
 }
 
-.contact-header {
+.contact-header, .skills-header {
 	font-family: Lato, sans-serif;
 	color: #5d5d5d;
 	font-size: 0.875rem;
