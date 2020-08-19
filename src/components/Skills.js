@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Jqueryicon from '../images/jquery-icon.png';
+
 class Skills extends Component {
 	render(){
 		return (
@@ -11,49 +13,87 @@ class Skills extends Component {
 				</div>
 
 				<div className="row mx-0 mx-lg-5">
-					<div className="col-6 col-lg-3">
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							<i class="fab fa-js-square"></i>
 						</span>
-						<h2>JavaScript</h2>
+						<h2 className="pt-3">JavaScript</h2>
 					</div>
-					<div className="col-6 col-lg-3">
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							<i class="fab fa-react"></i>
 						</span>
-						<h2>React.js</h2>
+						<h2 className="pt-3">React.js</h2>
 					</div>
-					<div className="col-6 col-lg-3">
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							<i class="fab fa-html5"></i>
 						</span>
-						 <h2>HTLM5</h2>
+						 <h2 className="pt-3">HTLM5</h2>
 					</div>
 
-					<div className="col-6 col-lg-3">
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							<i class="fab fa-css3-alt"></i>
 						</span>
-						<h2>CSS3</h2>
+						<h2 className="pt-3">CSS3</h2>
 					</div>
-					{/* <div className="col-6 col-lg-3">
+
+					<div className="col-6 col-lg-3 p-5">
+						<span className="icon">
+							{/* <img className="icon-img img-fluid" src={Jqueryicon} alt="jquery-icon"/> */}
+						</span>
+						<h2 className="pt-3">jQuery</h2>
+					</div>
+					<div className="col-6 col-lg-3 p-5">
+						<span className="icon">
+							<i class="fab fa-bootstrap"></i>
+						</span>
+						<h2 className="pt-3">Bootstrap</h2>
+					</div>
+					<div className="col-6 col-lg-3 p-5">
+						<span className="icon">
+							<i class="fab fa-node-js"></i>
+						</span>
+						<h2 className="pt-3">Node.js</h2>
+					</div>
+
+					<div className="col-6 col-lg-3 p-5">
+						<span className="icon">
+
+						</span>
+						<h2 className="pt-3">Express</h2>
+					</div>
+
+					
+
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							
 						</span>
-
+						<h2 className="pt-3">Mongo</h2>
 					</div>
-					<div className="col-6 col-lg-3">
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							
 						</span>
-
+						<h2 className="pt-3">Liquid</h2>
 					</div>
-					<div className="col-6 col-lg-3">
+					<div className="col-6 col-lg-3 p-5">
+						<span className="icon">
+							<i class="fab fa-git-square"></i>
+						</span>
+						<h2 className="pt-3">Git</h2>
+					</div>
+					<div className="col-6 col-lg-3 p-5">
 						<span className="icon">
 							
 						</span>
+						<h2 className="pt-3">Passport.js</h2>
+					</div> 
 
-					</div> */}
+
+
 
 				</div>
 			
