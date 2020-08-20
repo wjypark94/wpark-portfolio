@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../componentStyles/Skills.css';
 
-import Jqueryicon from '../images/jquery-icon.png';
+import javascriptIcon from '../images/javascript-icon.png';
+import jqueryIcon from '../images/jquery-icon.png';
 
 class Skills extends Component {
 	render(){
@@ -16,7 +17,7 @@ class Skills extends Component {
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-6 col-lg-3 p-5 skills-border">
 						<span className="icon">
-							<i class="fab fa-js-square"></i>
+							<img className="icon-img img-fluid" src={javascriptIcon} alt="javascript-icon"/>
 						</span>
 						<h2 className="pt-3">JavaScript</h2>
 					</div>
@@ -42,7 +43,7 @@ class Skills extends Component {
 
 					<div className="col-6 col-lg-3 p-5 skills-border">
 						<span className="icon">
-							<img className="icon-img img-fluid" src={Jqueryicon} alt="jquery-icon"/>
+							<img className="icon-img img-fluid" src={jqueryIcon} alt="jquery-icon"/>
 						</span>
 						<h2 className="pt-3">jQuery</h2>
 					</div>
