@@ -3,6 +3,7 @@ import '../componentStyles/Skills.css';
 
 import javascriptIcon from '../images/javascript-icon.png';
 import jqueryIcon from '../images/jquery-icon.png';
+import reactIcon from '../images/react-icon.png';
 
 class Skills extends Component {
 	render(){
@@ -23,7 +24,7 @@ class Skills extends Component {
 					</div>
 					<div className="col-6 col-lg-3 p-5 skills-border">
 						<span className="icon">
-							<i class="fab fa-react"></i>
+							<img className="icon-img img-fluid" src={reactIcon} alt="react-icon"/>
 						</span>
 						<h2 className="pt-3">React.js</h2>
 					</div>
