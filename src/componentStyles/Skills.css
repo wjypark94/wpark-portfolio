@@ -1,4 +1,25 @@
-.skills-border {
-	border-right: 1px solid grey;
-	border-bottom: 1px solid grey;
+.skills-border-right {
+	border: none;
+}
+
+.skills-border-bottom {
+	border: none;
+}
+
+.icon-img {
+	height: 60px;
+}
+
+.skills-title {
+	font-size: 1.5rem;
+}  
+
+@media screen and (min-width: 1200px){
+	.skills-border-right {
+		border-right: 1px solid grey;
+	}
+
+	.skills-border-bottom {
+		border-bottom: 1px solid grey;
+	}
 }
