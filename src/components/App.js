@@ -6,6 +6,7 @@ import Header from './Header';
 import RecentWork from './RecentWork';
 import PastProjects from './PastProjects';
 import Skills from './Skills';
+import Tools from './Tools';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -27,6 +28,7 @@ function App() {
 				<Route exact path ="/">
 					<Header/>
 					<Skills/>
+					<Tools/>
 					<RecentWork/>
 					<PastProjects/>
 					<Footer/>

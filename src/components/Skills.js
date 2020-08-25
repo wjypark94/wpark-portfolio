@@ -21,7 +21,7 @@ class Skills extends Component {
 			<div className="container py-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-5">
-						<h2 className="skills-header text-uppercasec">Skills</h2>
+						<h2 className="skills-header text-uppercase">Skills</h2>
 					</div>
 				</div>
 
