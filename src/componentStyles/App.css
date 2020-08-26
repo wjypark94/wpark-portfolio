@@ -73,7 +73,8 @@
 }
 
 .work-paragraph, .card-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	/* font-family: 'Source Sans Pro', sans-serif; */
+	font-family: 'Lora', serif;
     color: #333;
     font-weight: 300;
 }
