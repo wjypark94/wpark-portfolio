@@ -23,3 +23,8 @@
 		border-bottom: 1px solid grey;
 	}
 }
+
+.skills-title {
+	font-family: 'Georgia';
+	font-size: 1.125rem;
+}

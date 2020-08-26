@@ -37,53 +37,53 @@ class Tools extends Component {
 				</div>
 
 				<div className="row mx-0 mx-lg-5">
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={githubIcon} alt="github-icon"/>
-						<h2 className="pt-3 skills-title">Github</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={githubIcon} alt="github-icon"/>
+						<h2 className="py-3 skills-title">Github</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={npmIcon} alt="npm-icon"/>
-						<h2 className="pt-3 skills-title">NPM</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={npmIcon} alt="npm-icon"/>
+						<h2 className="py-3 skills-title">NPM</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={babelIcon} alt="babel-icon"/>
-						 <h2 className="pt-3 skills-title">Babel</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={babelIcon} alt="babel-icon"/>
+						 <h2 className="py-3 skills-title">Babel</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-bottom">
-						<img className="icon-img img-fluid" src={webpackIcon} alt="webpack-icon"/>
-						<h2 className="pt-3 skills-title">Webpack</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={webpackIcon} alt="webpack-icon"/>
+						<h2 className="py-3 skills-title">Webpack</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={vscodeIcon} alt="vscode-icon"/>
-						<h2 className="pt-3 skills-title">VS Code</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={vscodeIcon} alt="vscode-icon"/>
+						<h2 className="py-3 skills-title">VS Code</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={slackIcon} alt="slack-icon"/>
-						<h2 className="pt-3 skills-title">Slack</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={slackIcon} alt="slack-icon"/>
+						<h2 className="py-3 skills-title">Slack</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={asanaIcon} alt="asana-icon"/>
-						<h2 className="pt-3 skills-title">Asana</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={asanaIcon} alt="asana-icon"/>
+						<h2 className="py-3 skills-title">Asana</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-bottom">
-						<img className="icon-img img-fluid" src={mochaIcon} alt="mocha-icon"/>
-						<h2 className="pt-3 skills-title">Mocha</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={mochaIcon} alt="mocha-icon"/>
+						<h2 className="py-3 skills-title">Mocha</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={chaiIcon} alt="chai-icon"/>
-						<h2 className="pt-3 skills-title">Chai</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={chaiIcon} alt="chai-icon"/>
+						<h2 className="py-3 skills-title">Chai</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={netlifyIcon} alt="netlify-icon"/>
-						<h2 className="pt-3 skills-title">Netlify</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={netlifyIcon} alt="netlify-icon"/>
+						<h2 className="py-3 skills-title">Netlify</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-right skills-border-bottom">
-						<img className="icon-img img-fluid" src={herokuIcon} alt="heroku-icon"/>
-						<h2 className="pt-3 skills-title">Heroku</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={herokuIcon} alt="heroku-icon"/>
+						<h2 className="py-3 skills-title">Heroku</h2>
 					</div>
-					<div className="col-6 col-lg-3 p-3 p-lg-5 skills-border-bottom">
-						<img className="icon-img img-fluid" src={responsiveIcon} alt="responsive-icon"/>
-						<h2 className="pt-3 skills-title">Responsive Design</h2>
+					<div className="col-6 col-lg-3 p-3 skills-border-bottom">
+						<img className="icon-img img-fluid mt-lg-3" src={responsiveIcon} alt="responsive-icon"/>
+						<h2 className="py-3 skills-title">Responsive Design</h2>
 					</div> 
 
 
