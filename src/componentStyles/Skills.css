@@ -16,11 +16,11 @@
 
 @media screen and (min-width: 1200px){
 	.skills-border-right {
-		border-right: 1px solid grey;
+		border-right: 1px solid #c9d7e0;
 	}
 
 	.skills-border-bottom {
-		border-bottom: 1px solid grey;
+		border-bottom: 1px solid #c9d7e0;
 	}
 }
 

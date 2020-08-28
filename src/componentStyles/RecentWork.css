@@ -50,6 +50,10 @@
 	font-size: 0.875rem;
 	font-weight: 700;
 	letter-spacing: 1px;
+}
 
+.site-link {
+	color: #5d5d5d;
+	text-decoration: underline;
 }
 

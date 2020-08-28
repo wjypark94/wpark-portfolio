@@ -18,7 +18,7 @@ import passportIcon from '../images/passport-icon.png';
 class Skills extends Component {
 	render(){
 		return (
-			<div className="container py-5">
+			<div className="container py-lg-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-5">
 						<h2 className="skills-header text-uppercase">Skills</h2>

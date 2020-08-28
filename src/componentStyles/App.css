@@ -74,7 +74,9 @@
 
 .work-paragraph, .card-text {
 	/* font-family: 'Source Sans Pro', sans-serif; */
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+    line-height: 20px;
     color: #333;
     font-weight: 300;
 }
