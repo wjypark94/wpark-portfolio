@@ -28,7 +28,7 @@ class PastProjects extends Component{
 									</div>
 								</div>
 
-								<h5 class="card-title pt-3 pt-lg-5">Fridgeful</h5>
+								{/* <h5 class="card-title pt-3 pt-lg-5">Fridgeful</h5>
 								<p class="card-text">Helping users decrease the amount of food waste in the world, Fridgeful allows users to search recipes based on the ingredients in their fridge. Users are able to write comments and save recipes into their own personal database.</p>
 								<div class="row">
 									<div class="col-12 col-lg-6 py-2">
@@ -37,15 +37,18 @@ class PastProjects extends Component{
 									<div class="col-12 col-lg-6 py-2">
 										<a href="https://github.com/wjypark94/fridgeful-client" class="btn btn-primary w-100 project-btn" title="Fridgeful Code" target="_blank">Code</a>
 									</div>
-								</div>
+								</div> */}
+
+
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-6 px-0 pl-md-2 pb-3">
 						<div class="card h-100">
 							<div class="card-body">
-								<img className="img-fluid" src={Brewtrackr} alt="brewtrackr"/>
-								<h5 class="card-title pt-3 pt-lg-5">Brewtrackr</h5>
+								<img className="img-fluid project-image" src={Brewtrackr} alt="brewtrackr"/>
+
+								{/* <h5 class="card-title pt-3 pt-lg-5">Brewtrackr</h5>
 								<p class="card-text">BrewTrackr allows users to search for coffee or breweries in any city. Users are able to write their own reviews and save their search results into their own list. Keep track of all your favorite coffee and breweries with BrewTrackr.</p>
 								<div class="row">
 									<div class="col-12 col-lg-6 py-2">
@@ -54,15 +57,17 @@ class PastProjects extends Component{
 									<div class="col-12 col-lg-6 py-2">
 										<a href="https://github.com/wjypark94/brew-trackr" class="btn btn-primary w-100 project-btn" title="Brewtrackr Code" target="_blank">Code</a>
 									</div>
-								</div>
+								</div> */}
+
+
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-6 px-0 pr-md-2 pb-3">
 						<div class="card h-100">
 							<div class="card-body">
-								<img className="img-fluid" src={HotCold} alt="hotcold"/>	
-								<h5 class="card-title pt-3 pt-lg-5">Hot N' Cold</h5>
+								<img className="img-fluid project-image" src={HotCold} alt="hotcold"/>	
+								{/* <h5 class="card-title pt-3 pt-lg-5">Hot N' Cold</h5>
 								<p class="card-text">Built with React and Redux, Hot or Cold is an interactive and simple number guessing game. The app allows users to attempt to guess a randomly generated number with cold or hot hints throughout the game.</p>
 								<div class="row">
 									<div class="col-12 col-lg-6 py-2">
@@ -71,15 +76,15 @@ class PastProjects extends Component{
 									<div class="col-12 col-lg-6 py-2">
 										<a href="https://github.com/wjypark94/hot-cold" class="btn btn-primary w-100 project-btn" title="HotnCold Code" target="_blank">Code</a>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-6 px-0 pl-md-2 pb-3">
 						<div class="card h-100">
 							<div class="card-body">
-								<img className="img-fluid" src={TrekCheck} alt="trekcheck"/>
-								<h5 class="card-title pt-3 pt-lg-5">TrekCheck</h5>
+								<img className="img-fluid project-image" src={TrekCheck} alt="trekcheck"/>
+								{/* <h5 class="card-title pt-3 pt-lg-5">TrekCheck</h5>
 								<p class="card-text">TrekCheck is a responsive web application that allows users to look up both hiking and weather data in a specified location with one quick search. Check the current weather and find the best hiking trails nearby with TrekCheck.</p>
 								<div class="row">
 									<div class="col-12 col-lg-6 py-2">
@@ -88,7 +93,7 @@ class PastProjects extends Component{
 									<div class="col-12 col-lg-6 py-2">
 										<a href="https://github.com/wjypark94/trek-check" class="btn btn-primary w-100 project-btn" title="TrekCheck Code" target="_blank">Code</a>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
