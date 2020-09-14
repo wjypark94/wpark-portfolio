@@ -21,14 +21,20 @@ class PastProjects extends Component{
 					<div class="col-12 col-md-6 px-0 pr-md-2 pb-3">
 						<div class="card h-100">
 							<div class="card-body">
-								<div className="image-wrapper">
-									<img className="img-fluid project-image" src={Fridgeful} alt="fridgeful"/>
-									<div className="overlay">
-										<div className="text">Read More</div>
+								<img className="img-fluid project-image" src={Fridgeful} alt="fridgeful"/>
+								<div class="middle">
+									<div class="row">
+										<div class="col-12 col-lg-6 py-2">
+											<a href="https://brewtrackr.herokuapp.com/" class="btn btn-primary w-100 project-btn" title="Brewtrackr Demo" target="_blank">Demo</a>
+										</div>
+										<div class="col-12 col-lg-6 py-2">
+											<a href="https://github.com/wjypark94/brew-trackr" class="btn btn-primary w-100 project-btn" title="Brewtrackr Code" target="_blank">Code</a>
+										</div>
 									</div>
 								</div>
-
-								{/* <h5 class="card-title pt-3 pt-lg-5">Fridgeful</h5>
+	
+{/* 
+								<h5 class="card-title pt-3 pt-lg-5">Fridgeful</h5>
 								<p class="card-text">Helping users decrease the amount of food waste in the world, Fridgeful allows users to search recipes based on the ingredients in their fridge. Users are able to write comments and save recipes into their own personal database.</p>
 								<div class="row">
 									<div class="col-12 col-lg-6 py-2">
@@ -38,8 +44,6 @@ class PastProjects extends Component{
 										<a href="https://github.com/wjypark94/fridgeful-client" class="btn btn-primary w-100 project-btn" title="Fridgeful Code" target="_blank">Code</a>
 									</div>
 								</div> */}
-
-
 							</div>
 						</div>
 					</div>
