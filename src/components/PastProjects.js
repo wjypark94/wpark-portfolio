@@ -22,10 +22,10 @@ class PastProjects extends Component{
 								<div class="overlay w-100 px-3 d-flex align-items-center justify-content-center">
 									<div class="row w-100">
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://fridgeful.netlify.com/" class="btn btn-primary w-100 project-btn" title="Fridgeful Demo" target="_blank">Demo</a>
+											<a href="https://fridgeful.netlify.com/" class="btn btn-primary w-100 project-btn" title="Fridgeful Demo" target="_blank">Live</a>
 										</div>
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://github.com/wjypark94/fridgeful-client" class="btn btn-primary w-100 project-btn" title="Fridgeful Code" target="_blank">Code</a>
+											<a href="https://github.com/wjypark94/fridgeful-client" class="btn btn-primary w-100 project-btn" title="Fridgeful Code" target="_blank">Github</a>
 										</div>
 									</div>
 								</div>
@@ -39,10 +39,10 @@ class PastProjects extends Component{
 								<div class="overlay w-100 px-3 d-flex align-items-center justify-content-center">
 									<div class="row w-100">
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://brewtrackr.herokuapp.com/" class="btn btn-primary w-100 project-btn" title="Brewtrackr Demo" target="_blank">Demo</a>
+											<a href="https://brewtrackr.herokuapp.com/" class="btn btn-primary w-100 project-btn" title="Brewtrackr Demo" target="_blank">Live</a>
 										</div>
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://github.com/wjypark94/brew-trackr" class="btn btn-primary w-100 project-btn" title="Brewtrackr Code" target="_blank">Code</a>
+											<a href="https://github.com/wjypark94/brew-trackr" class="btn btn-primary w-100 project-btn" title="Brewtrackr Code" target="_blank">Github</a>
 										</div>
 									</div>
 								</div>
@@ -56,10 +56,10 @@ class PastProjects extends Component{
 								<div class="overlay w-100 px-3 d-flex align-items-center justify-content-center">
 									<div class="row w-100">
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://hotcold.netlify.app/" class="btn btn-primary w-100 project-btn" title="Hotcold Demo" target="_blank">Demo</a>
+											<a href="https://hotcold.netlify.app/" class="btn btn-primary w-100 project-btn" title="Hotcold Demo" target="_blank">Live</a>
 										</div>
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://github.com/wjypark94/hot-cold" class="btn btn-primary w-100 project-btn" title="Hotcold Code" target="_blank">Code</a>
+											<a href="https://github.com/wjypark94/hot-cold" class="btn btn-primary w-100 project-btn" title="Hotcold Code" target="_blank">Github</a>
 										</div>
 									</div>
 								</div>
@@ -73,10 +73,10 @@ class PastProjects extends Component{
 								<div class="overlay w-100 px-3 d-flex align-items-center justify-content-center">
 									<div class="row w-100">
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://wjypark94.github.io/trek-check/" class="btn btn-primary w-100 project-btn" title="Trekcheck Demo" target="_blank">Demo</a>
+											<a href="https://wjypark94.github.io/trek-check/" class="btn btn-primary w-100 project-btn" title="Trekcheck Demo" target="_blank">Live</a>
 										</div>
 										<div class="col-12 col-lg-6 py-2">
-											<a href="https://github.com/wjypark94/trek-check" class="btn btn-primary w-100 project-btn" title="Trekcheck Code" target="_blank">Code</a>
+											<a href="https://github.com/wjypark94/trek-check" class="btn btn-primary w-100 project-btn" title="Trekcheck Code" target="_blank">Github</a>
 										</div>
 									</div>
 								</div>
