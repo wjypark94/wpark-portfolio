@@ -1,0 +1,30 @@
+.contact-link {
+	color: #212529;
+	border-bottom: 1px solid #0056b3;
+}
+
+.contact-link:hover {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.footer-title {
+	font-family: 'Georgia';
+}
+
+.footer-description {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+}
+
+.footer-copyright {
+	font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.copyright-icon {
+	color: #212529;
+    background-color: transparent;
+    width: 30px;
+}

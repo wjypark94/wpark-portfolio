@@ -35,6 +35,7 @@ function App() {
 				</Route>
 				<Route exact path ="/about">
 					<About/>
+					<Footer/>
 				</Route>
 				<Route exact path = "/contact">
 					<Contact/>

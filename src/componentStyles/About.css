@@ -1,0 +1,17 @@
+.about-title {
+	font-family: 'Georgia';
+}
+
+.about-description {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.about-link {
+	color: #212529;
+	border-bottom: 1px solid #0056b3;
+}
+
+.about-link:hover {
+	color: #0056b3;
+	text-decoration: none;
+}

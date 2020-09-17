@@ -8,7 +8,7 @@ import HotCold from '../images/hotcold.png';
 class PastProjects extends Component{
 	render(){
 		return (
-			<div className="container">
+			<div className="container pb-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-3">
 						<h2 className="work-header text-uppercase">Past Projects</h2>
