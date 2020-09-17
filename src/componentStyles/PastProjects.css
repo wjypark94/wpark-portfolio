@@ -16,6 +16,7 @@
     border-radius: 3px;
     color: rgba(80,75,75,.986);
     background-color: white;
+	padding: .6rem 2.975rem;
 }
 
 .project-btn:hover {
@@ -52,6 +53,14 @@
 	opacity: 1;
 	transition: .5s ease;
     backface-visibility: hidden;
+}
+
+.project-title, .project-description {
+	color: #ffffff;
+}
+
+.title-col {
+	width: 0;
 }
 
 .card:hover .project-image {
