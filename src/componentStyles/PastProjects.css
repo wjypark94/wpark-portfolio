@@ -16,13 +16,14 @@
     border-radius: 3px;
     color: rgba(80,75,75,.986);
     background-color: white;
-	padding: .6rem 2.975rem;
+	width: 100px;
+	text-transform: uppercase;
 }
 
 .project-btn:hover {
-	border-color: #5aa2ff;
-	background-color: #edededbd;
-	color: rgba(80,75,75,.986);
+	border-color: #0056b3;
+	background-color: #0056b3;
+	color: white;
 }
 
 
@@ -38,9 +39,12 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 275px;
+  height: 225px;
 }
 
+@media screen and (min-width: 992px){
+	.project-image { height: 275px; }
+}
 .card {
 	background-color: #F7F7F7;
 }
@@ -49,10 +53,15 @@
 	position: relative;
 }
 
-.project-image {
-	opacity: 1;
-	transition: .5s ease;
-    backface-visibility: hidden;
+.project-title {
+	font-family: 'Georgia';
+}
+
+.project-description {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
 }
 
 .project-title, .project-description {
