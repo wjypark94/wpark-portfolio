@@ -5,8 +5,8 @@ import '../componentStyles/About.css';
 class About extends Component {
 	render() {
 		return (
-			<div class="container py-3 py-lg-5">
-				<div class="row">
+			<div class="container py-3 py-lg-5 mt-4 mt-lg-5">
+				<div class="row pt-3 pt-lg-5">
 					<div class="col-12 col-lg-6">
 						<img className="img-fluid" src={Headshot} alt="headshot"/>
 					</div>
