@@ -31,7 +31,7 @@ class About extends Component {
 								<p className="about-description"> Feel free to reach out via <a className="about-link" href="https://www.linkedin.com/in/wjypark/" target="_blank">Linkedin</a>, or feel free to reach out via email at <a className="about-link" href="mailto:wjypark94@gmail.com?subject=Hello%20Will!">wjypark94@gmail.com </a></p>
 							</div>
 							<div class="col-12 text-center text-lg-left">
-								<a className="btn btn-primary" href="https://drive.google.com/file/d/1fDTHifZDmA5G6ltCooWCJCysNwXwQR0M/view?usp=sharing" target="_blank">VIEW RESUME</a>
+								<a className="btn btn-primary resume-btn" href="https://drive.google.com/file/d/1fDTHifZDmA5G6ltCooWCJCysNwXwQR0M/view?usp=sharing" target="_blank">VIEW RESUME</a>
 							</div>
 						</div>
 					</div>
