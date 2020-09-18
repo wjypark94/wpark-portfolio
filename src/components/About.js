@@ -5,17 +5,17 @@ import '../componentStyles/About.css';
 class About extends Component {
 	render() {
 		return (
-			<div class="container py-5">
+			<div class="container py-3 py-lg-5">
 				<div class="row">
 					<div class="col-12 col-lg-6">
 						<img className="img-fluid" src={Headshot} alt="headshot"/>
 					</div>
-					<div class="col-12 col-lg-6 text-left pt-5 pt-lg-0"> 
+					<div class="col-12 col-lg-6 text-left py-4 pt-lg-0"> 
 						<div class="row">
 							<div class="col-12">
 								<h2 className="about-title">ABOUT ME</h2>
 							</div>
-							<div class="col-12">
+							<div class="col-12 py-2 py-lg-3">
 								<p className="about-description">
 								Hey there! I’m a Front End Web Developer based in Los Angeles. I graduated from UC Riverside, worked at a physical therapist clinic, and eventually found my passion for web development. 
 								</p>
@@ -30,7 +30,7 @@ class About extends Component {
 								</p>
 								<p className="about-description"> Feel free to reach out via <a className="about-link" href="https://www.linkedin.com/in/wjypark/" target="_blank">Linkedin</a>, or feel free to reach out via email at <a className="about-link" href="mailto:wjypark94@gmail.com?subject=Hello%20Will!">wjypark94@gmail.com </a></p>
 							</div>
-							<div class="col-12 pt-3 pt-lg-4 text-center text-lg-left">
+							<div class="col-12 text-center text-lg-left">
 								<a className="btn btn-primary" href="https://drive.google.com/file/d/1fDTHifZDmA5G6ltCooWCJCysNwXwQR0M/view?usp=sharing" target="_blank">VIEW RESUME</a>
 							</div>
 						</div>

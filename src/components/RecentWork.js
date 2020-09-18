@@ -8,10 +8,10 @@ import Ymy from '../images/ymy.png';
 class RecentWork extends Component {
 	render(){
 		return (
-			<div className="container py-5">
+			<div className="container py-3 py-lg-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-3">
-						<h2 class="work-header text-uppercase">Recent Work</h2>
+						<h2 class="work-header text-uppercase py-3">Recent Work</h2>
 					</div>
 				</div>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">

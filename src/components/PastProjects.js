@@ -11,7 +11,7 @@ class PastProjects extends Component{
 			<div className="container pb-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-3">
-						<h2 className="work-header text-uppercase">Past Projects</h2>
+						<h2 className="work-header text-uppercase py-3">Past Projects</h2>
 					</div>
 				</div>
 				<div class="row mx-0 mx-lg-5">

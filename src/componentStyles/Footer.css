@@ -15,10 +15,17 @@
 .footer-description {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 30px;
+	font-size: 18px;
+
 }
 
+@media screen and (min-width: 768px){
+	.footer-description { font-size: 20px; }
+}
+
+
 .footer-copyright {
-	font-size: 15px;
+	font-size: 16px;
     line-height: 20px;
     font-weight: 300;
 }
@@ -28,3 +35,4 @@
     background-color: transparent;
     width: 30px;
 }
+

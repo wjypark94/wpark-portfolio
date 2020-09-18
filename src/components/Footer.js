@@ -7,7 +7,7 @@ class Footer extends Component{
 			<div class="container py-3 py-lg-5">
 				<div class="row mx-0 mx-lg-5">
 					<div class="col-12 text-center text-md-left pl-0">
-						<h2 class="contact-header text-uppercase">Contact</h2>
+						<h2 class="contact-header text-uppercase py-3">Contact</h2>
 					</div>
 					<div class="col-12 text-center py-4 py-lg-5">
 						<h3 className="footer-title">Get In Touch</h3>
