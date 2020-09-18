@@ -11,7 +11,7 @@ class Header extends Component {
 		return (
 			<div className="container pt-5 hero">
 				<div className="row">
-					<Fade bottom>
+					<Fade top>
 					<div className="col-12 py-3 header-title">
 						<h2>Hi, I'm <span>Will Park</span></h2>
 						<h3>I'm a Front End Web Developer based in Los Angeles.</h3>

@@ -11,7 +11,7 @@ class NavBar extends Component {
 		let Link = Scroll.Link;
 		return (
 			<div className="container-fluid px-0">
-				<Fade top>
+				<Fade>
 					<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
 						<Navbar.Brand href="/">WP</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
