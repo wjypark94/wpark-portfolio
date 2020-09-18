@@ -7,11 +7,27 @@ import Scroll from "react-scroll";
 
 
 class NavBar extends Component {
+	state = {
+		color: 'white'
+	}
+
+	listenScrollEvent = e => {
+		if (window.scrollY) {
+			this.setState({color: '#f8f9fa'})
+		} else {
+			this.setState({color: 'white'})
+		}
+	}
+
+	componentDidMount(){
+		window.addEventListener('scroll', this.listenScrollEvent)
+	}
+
 	render(){
 		let Link = Scroll.Link;
 		return (
 			<div className="container-fluid px-0">
-					<Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
+					<Navbar collapseOnSelect expand="lg" variant="light" fixed="top" className="active" style={{background: this.state.color}}>
 						<Navbar.Brand href="/">WP</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 						<Navbar.Collapse id="responsive-navbar-nav">
