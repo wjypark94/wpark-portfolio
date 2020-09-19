@@ -25,6 +25,7 @@ import chaiIcon from '../images/chai-icon.png';
 import netlifyIcon from '../images/netlify-icon.png';
 import herokuIcon from '../images/heroku-icon.png';
 import responsiveIcon from '../images/responsive-icon.png';
+import Fade from 'react-reveal/Fade';
 
 class Tools extends Component {
 	render(){
@@ -32,11 +33,14 @@ class Tools extends Component {
 			<div className="container">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-5">
-						<h2 className="skills-header text-uppercase">Tools</h2>
+						<h2 className="skills-header text-uppercase">		
+							<Fade top>Tools</Fade>
+						</h2>
 					</div>
 				</div>
 
 				<div className="row mx-0 mx-lg-5">
+					<Fade top>
 					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
 						<img className="icon-img img-fluid mt-lg-3" src={githubIcon} alt="github-icon"/>
 						<h2 className="py-3 skills-title">Github</h2>
@@ -86,7 +90,7 @@ class Tools extends Component {
 						<h2 className="py-3 skills-title">Responsive Design</h2>
 					</div> 
 
-
+					</Fade>
 
 
 				</div>

@@ -4,6 +4,7 @@ import Semihandmade from '../images/semihandmade.png';
 import Laloop from '../images/laloop.png';
 import Singnasium from '../images/singnasium.png';
 import Ymy from '../images/ymy.png';
+import Fade from 'react-reveal/Fade';
 
 class RecentWork extends Component {
 	render(){
@@ -11,9 +12,12 @@ class RecentWork extends Component {
 			<div className="container py-3 py-lg-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-3">
-						<h2 class="work-header text-uppercase py-3">Recent Work</h2>
+						<h2 class="work-header text-uppercase py-3">
+							<Fade top>Recent Work</Fade>
+						</h2>
 					</div>
 				</div>
+				<Fade bottom>
 				<div className="row work-border mb-5 mx-0 mx-lg-5">
 					<div className="col-12 col-md-6 py-3 semihandmade-col">
 					 	<img className="work-img img-fluid" src={Semihandmade} alt="semihandmade"/>
@@ -58,6 +62,7 @@ class RecentWork extends Component {
 						<a className="mt-auto site-link pt-3 pt-lg-0" href="https://singnasium.org/" target="_blank">View Site</a>
 					</div>
 				</div>
+				</Fade>
 			</div>
 		)
 

@@ -13,6 +13,7 @@ import mongoIcon from '../images/mongo-icon.png';
 import liquidIcon from '../images/liquid-icon.png';
 import gitIcon from '../images/git-icon.png';
 import passportIcon from '../images/passport-icon.png';
+import Fade from 'react-reveal/Fade';
 
 
 class Skills extends Component {
@@ -21,11 +22,14 @@ class Skills extends Component {
 			<div className="container py-lg-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-5">
-						<h2 className="skills-header text-uppercase">Skills</h2>
+						<h2 className="skills-header text-uppercase">
+							<Fade top>Skills</Fade>
+						</h2>
 					</div>
 				</div>
 
 				<div className="row mx-0 mx-lg-5">
+					<Fade top>
 					<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
 						<img className="icon-img img-fluid mt-lg-3" src={javascriptIcon} alt="javascript-icon"/>
 						<h2 className="py-3 skills-title">JavaScript</h2>
@@ -74,7 +78,7 @@ class Skills extends Component {
 						<img className="icon-img img-fluid mt-lg-3" src={passportIcon} alt="passport-icon"/>
 						<h2 className="py-3 skills-title">Passport.js</h2>
 					</div> 
-
+					</Fade>
 
 
 

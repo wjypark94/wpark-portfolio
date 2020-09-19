@@ -4,6 +4,7 @@ import Fridgeful from '../images/fridgeful.png';
 import Brewtrackr from '../images/brewtrackr.png';
 import TrekCheck from '../images/trekcheck.png';
 import HotCold from '../images/hotcold.png';
+import Fade from 'react-reveal/Fade';
 
 class PastProjects extends Component{
 	render(){
@@ -11,7 +12,7 @@ class PastProjects extends Component{
 			<div className="container pb-5">
 				<div className="row mx-0 mx-lg-5">
 					<div className="col-12 text-center text-md-left pl-0 py-3">
-						<h2 className="work-header text-uppercase py-3">Past Projects</h2>
+						<h2 className="work-header text-uppercase py-3"><Fade top>Past Projects</Fade></h2>
 					</div>
 				</div>
 				<div class="row mx-0 mx-lg-5">
@@ -58,6 +59,7 @@ class PastProjects extends Component{
 						</div>
 					</div>
 					<div class="col-12 col-md-6 px-0 pr-md-2 pb-3">
+				
 						<div class="card h-100">
 							<div class="card-body">
 								<img className="img-fluid project-image" src={HotCold} alt="hotcold"/>	
@@ -77,6 +79,7 @@ class PastProjects extends Component{
 								</div>
 							</div>
 						</div>
+					
 					</div>
 					<div class="col-12 col-md-6 px-0 pl-md-2 pb-3">
 						<div class="card h-100">

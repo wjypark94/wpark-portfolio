@@ -10,17 +10,19 @@ class Header extends Component {
 		let Link = Scroll.Link;
 		return (
 			<div className="container pt-5 hero mt-4 mt-lg-5">
-				<div className="row">
-					<Fade top>
+				<Fade bottom>
+				<div className="row pt-3 pt-lg-4">
 					<div className="col-12 py-3 header-title">
+						<Fade right>
 						<h2>Hi, I'm <span>Will Park</span></h2>
 						<h3>I'm a Front End Web Developer based in Los Angeles.</h3>
+						</Fade>
 					</div>
-					</Fade>
 					<div class="col-12 text-center">
+						<Fade left>
 						<img className="work-img img-fluid" src={Avatar} alt="ymy"/>
+						</Fade>
 					</div>
-
 					<div class="col-12 py-3">
 						<a class="px-2" href="mailto:wjypark94@gmail.com" target="_blank"><i class="icon fa fa-envelope"></i></a>
 						<a class="px-2" href="https://github.com/wjypark94" target="_blank"><i class="icon fa fa-github-alt"></i></a>
@@ -28,6 +30,7 @@ class Header extends Component {
 					</div>
 					 
 				</div>
+				</Fade>
 				
 				{/* <Fade bottom>
 					<div class="row">
