@@ -31,6 +31,7 @@ function App() {
 					<Tools/>
 					<RecentWork/>
 					<PastProjects/>
+			
 					<Footer/>
 				</Route>
 				<Route exact path ="/about">
