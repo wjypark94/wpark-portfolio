@@ -10,7 +10,7 @@ class Header extends Component {
 		let Link = Scroll.Link;
 		return (
 			<div className="container pt-5 hero mt-4 mt-lg-5">
-				<Fade bottom>
+		
 				<div className="row pt-3 pt-lg-4">
 					<div className="col-12 py-3 header-title">
 						<Fade right>
@@ -28,9 +28,8 @@ class Header extends Component {
 						<a class="px-2" href="https://github.com/wjypark94" target="_blank"><i class="icon fa fa-github-alt"></i></a>
 						<a class="px-2" href="https://www.linkedin.com/in/wjypark" target="_blank"><i class="icon fa fa-linkedin"></i></a>
 					</div>
-					 
 				</div>
-				</Fade>
+			
 				
 				{/* <Fade bottom>
 					<div class="row">
