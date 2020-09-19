@@ -13,13 +13,13 @@ class Header extends Component {
 		
 				<div className="row pt-3 pt-lg-4">
 					<div className="col-12 py-3 header-title">
-						<Fade right>
+						<Fade top>
 						<h2>Hi, I'm <span>Will Park</span></h2>
 						<h3>I'm a Front End Web Developer based in Los Angeles.</h3>
 						</Fade>
 					</div>
 					<div class="col-12 text-center">
-						<Fade left>
+						<Fade bottom>
 						<img className="work-img img-fluid" src={Avatar} alt="ymy"/>
 						</Fade>
 					</div>
