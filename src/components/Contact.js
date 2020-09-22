@@ -6,7 +6,7 @@ class Contact extends Component{
 	render(){
 		return (
 			<div class="container py-3 py-lg-5">
-				<div class="row mx-0 mx-lg-5">
+				<div class="row mx-0 mx-lg-5 py-3">
 					<div class="col-12 text-center text-md-left pl-0">
 						<h2 class="contact-header text-uppercase py-lg-3 mb-0 py-1"><Fade top>Contact</Fade></h2>
 					</div>

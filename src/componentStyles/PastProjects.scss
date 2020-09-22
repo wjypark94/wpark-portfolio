@@ -1,5 +1,4 @@
 .card {
-	box-shadow: 2px 2px 18px 0 #e2e2e2;
 	border: none;
 }
 
@@ -81,4 +80,27 @@
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,0.6);
+}
+
+
+.past-projects-section {
+  display: block;
+  position: relative;
+  .work-header {
+	  color: #fff;
+  }
+}
+
+.past-projects-section:before {
+  content: "";
+  opacity: .95;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80) 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
