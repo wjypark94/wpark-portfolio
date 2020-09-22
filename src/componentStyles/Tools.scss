@@ -1,0 +1,28 @@
+
+
+.tools-section {
+	.skills-title, .skills-header {
+		color: #fff;
+	}
+}
+
+
+.tools-section {
+  display: block;
+  position: relative;
+}
+
+.tools-section:before {
+  content: "";
+  opacity: .95;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+
+  	  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(https://images.pexels.com/photos/593319/pexels-photo-593319.jpeg?cs=srgb&dl=holz-kamera-iphone-593319.jpg&fm=jpg) 50% 50% no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+}
