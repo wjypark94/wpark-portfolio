@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Headshot from '../images/headshot.png';
-import '../componentStyles/About.css';
+import '../componentStyles/About.scss';
 import Fade from 'react-reveal/Fade';
 
 class About extends Component {

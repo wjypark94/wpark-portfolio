@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../componentStyles/RecentWork.css';
+import '../componentStyles/RecentWork.scss';
 import Semihandmade from '../images/semihandmade.png';
 import Laloop from '../images/laloop.png';
 import Singnasium from '../images/singnasium.png';

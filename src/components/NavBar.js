@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../componentStyles/NavBar.css';
+import '../componentStyles/NavBar.scss';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import Scroll from "react-scroll";

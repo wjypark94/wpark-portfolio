@@ -1,5 +1,5 @@
 import React from 'react';
-import '../componentStyles/App.css';
+import '../componentStyles/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './NavBar';
 import Header from './Header';
@@ -22,7 +22,6 @@ function App() {
   return (
     <div className="App">
 		<NavBar/>
-
 		<Router>
 			<Switch>
 				<Route exact path ="/">
@@ -31,7 +30,6 @@ function App() {
 					<Tools/>
 					<RecentWork/>
 					<PastProjects/>
-			
 					<Footer/>
 				</Route>
 				<Route exact path ="/about">

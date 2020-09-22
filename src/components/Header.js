@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../componentStyles/Header.css';
+import '../componentStyles/Header.scss';
 import Scroll from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import Avatar from '../images/avatar.png';
@@ -9,7 +9,7 @@ class Header extends Component {
 	render() {
 		let Link = Scroll.Link;
 		return (
-			<div className="container pt-5 hero mt-4 mt-lg-5">
+			<div className="container pt-5 hero my-4 my-lg-5">
 		
 				<div className="row pt-3 pt-lg-4">
 					<div className="col-12 py-3 header-title">

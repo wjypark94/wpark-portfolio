@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../componentStyles/Footer.css';
+import '../componentStyles/Footer.scss';
 import Fade from 'react-reveal/Fade';
 
 class Footer extends Component{

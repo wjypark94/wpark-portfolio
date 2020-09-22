@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../componentStyles/Skills.css';
+import '../componentStyles/Skills.scss';
 
 import javascriptIcon from '../images/javascript-icon.png';
 import jqueryIcon from '../images/jquery-icon.png';
@@ -19,7 +19,7 @@ import Fade from 'react-reveal/Fade';
 class Skills extends Component {
 	render(){
 		return (
-			<section>
+			<section className="skills-section">
 				<div className="container py-lg-5">
 					<div className="row mx-0 mx-lg-5">
 						<div className="col-12 text-center text-md-left pl-0 py-5">

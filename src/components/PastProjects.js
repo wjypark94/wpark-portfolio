@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../componentStyles/PastProjects.css';
+import '../componentStyles/PastProjects.scss';
 import Fridgeful from '../images/fridgeful.png';
 import Brewtrackr from '../images/brewtrackr.png';
 import TrekCheck from '../images/trekcheck.png';
