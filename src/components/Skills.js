@@ -20,7 +20,7 @@ class Skills extends Component {
 	render(){
 		return (
 			<section className="skills-section">
-				<div className="container py-lg-5">
+				<div className="container py-3 py-lg-5">
 					<div className="row mx-0 mx-lg-5">
 						<div className="col-12 text-center text-md-left pl-0 py-5">
 							<h2 className="skills-header text-uppercase">
@@ -63,19 +63,19 @@ class Skills extends Component {
 							<img className="icon-img img-fluid mt-lg-3" src={expressIcon} alt="express-icon"/>
 							<h2 className="py-3 skills-title">Express</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3 skills-border-right">
 							<img className="icon-img img-fluid mt-lg-3" src={mongoIcon} alt="mongo-icon"/>
 							<h2 className="py-3 skills-title">Mongo</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3 skills-border-right">
 							<img className="icon-img img-fluid mt-lg-3" src={liquidIcon} alt="liquid-icon"/>
 							<h2 className="py-3 skills-title">Liquid</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3 skills-border-right">
 							<img className="icon-img img-fluid mt-lg-3" src={gitIcon} alt="git-icon"/>
 							<h2 className="py-3 skills-title">Git</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3">
 							<img className="icon-img img-fluid mt-lg-3" src={passportIcon} alt="passport-icon"/>
 							<h2 className="py-3 skills-title">Passport.js</h2>
 						</div> 

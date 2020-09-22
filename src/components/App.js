@@ -30,14 +30,13 @@ function App() {
 					<Tools/>
 					<RecentWork/>
 					<PastProjects/>
+					<Contact/>
 					<Footer/>
 				</Route>
 				<Route exact path ="/about">
 					<About/>
-					<Footer/>
-				</Route>
-				<Route exact path = "/contact">
 					<Contact/>
+					<Footer/>
 				</Route>
 			</Switch>
 		</Router>

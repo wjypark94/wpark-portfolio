@@ -1,0 +1,24 @@
+.contact-link {
+	color: #212529;
+	border-bottom: 1px solid #0056b3;
+}
+
+.contact-link:hover {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.contact-title {
+	font-family: 'Georgia';
+}
+
+.contact-description {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	font-size: 18px;
+
+}
+
+@media screen and (min-width: 768px){
+	.contact-description { font-size: 20px; }
+}

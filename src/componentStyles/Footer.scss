@@ -28,11 +28,18 @@
 	font-size: 16px;
     line-height: 20px;
     font-weight: 300;
+	color: #fff;
+	font-family: 'Georgia';
 }
 
 .copyright-icon {
 	color: #212529;
     background-color: transparent;
     width: 30px;
+	color: #fff;
 }
 
+.footer-section {
+	background: url("https://get.clt.re/wp-content/uploads/2014/12/footer-background-01.jpg");
+	background-size: cover;
+}

@@ -31,8 +31,8 @@ import '../componentStyles/Tools.scss';
 class Tools extends Component {
 	render(){
 		return (
-			<div className="tools-section">
-				<div className="container py-3">
+			<section className="tools-section">
+				<div className="container py-3 py-lg-5">
 					<div className="row mx-0 mx-lg-5">
 						<div className="col-12 text-center text-md-left pl-0 py-5">
 							<h2 className="skills-header text-uppercase">		
@@ -75,19 +75,19 @@ class Tools extends Component {
 							<img className="icon-img img-fluid mt-lg-3" src={mochaIcon} alt="mocha-icon"/>
 							<h2 className="py-3 skills-title">Mocha</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3 skills-border-right">
 							<img className="icon-img img-fluid mt-lg-3" src={chaiIcon} alt="chai-icon"/>
 							<h2 className="py-3 skills-title">Chai</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3 skills-border-right">
 							<img className="icon-img img-fluid mt-lg-3" src={netlifyIcon} alt="netlify-icon"/>
 							<h2 className="py-3 skills-title">Netlify</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3 skills-border-right">
 							<img className="icon-img img-fluid mt-lg-3" src={herokuIcon} alt="heroku-icon"/>
 							<h2 className="py-3 skills-title">Heroku</h2>
 						</div>
-						<div className="col-6 col-lg-3 p-3 skills-border-bottom">
+						<div className="col-6 col-lg-3 p-3">
 							<img className="icon-img img-fluid mt-lg-3" src={responsiveIcon} alt="responsive-icon"/>
 							<h2 className="py-3 skills-title">Responsive Design</h2>
 						</div> 
@@ -98,7 +98,7 @@ class Tools extends Component {
 					</div>
 				
 				</div>
-			</div>
+			</section>
 		)
 	}
 }
