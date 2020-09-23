@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Header from './Header';
 import RecentWork from './RecentWork';
 import PastProjects from './PastProjects';
+import Background from './Background';
 import Skills from './Skills';
 import Tools from './Tools';
 import About from './About';
@@ -26,6 +27,7 @@ function App() {
 			<Switch>
 				<Route exact path ="/">
 					<Header/>
+					<Background/>
 					<Skills/>
 					<Tools/>
 					<RecentWork/>
