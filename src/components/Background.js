@@ -49,7 +49,7 @@ class Background extends Component{
 							<ul className="p-0 m-0">
 								<li>	
 									<h3 className="background-title">Web Development</h3>
-									<p className="background-description">Solving complicated problems and bringing ideas to life brings me great joy.</p>
+									<p className="background-description">Solving complicated problems and bringing ideas to life bring me great joy.</p>
 								</li>
 								<li>
 									<h3 className="background-title">Travel</h3>
