@@ -6,16 +6,15 @@ class Background extends Component{
 	render(){
 		return (
 			<section className="background-section">
-				<div class="container py-3 py-lg-5">
+				<div class="container py-3">
 					<div class="row mx-0 mx-lg-5 py-3">
 						<div class="col-12 text-center text-md-left pl-0">
 							<h2 class="background-header text-uppercase py-lg-3 mb-0 py-1"><Fade top>Background</Fade></h2>
 						</div>
 					</div>
-					<div class="row mx-0 mx-lg-5">
+					<div class="row mx-0 mx-lg-5 py-lg-2">
 						<div class="col-12 col-lg-4 text-left px-0">
-							<i class="fas fa-book-open background-icon"></i>
-							<h2 className="py-3 background-heading">Education</h2>
+							<h2 className="py-3 background-heading"><i class="fas fa-book-open background-icon"></i> Education</h2>
 							<ul className="p-0 m-0">
 								<li>
 									<h3 className="background-title">Thinkful</h3>
@@ -28,8 +27,7 @@ class Background extends Component{
 							</ul>
 						</div>
 						<div class="col-12 col-lg-4 text-left px-0">
-							<i class="fas fa-briefcase background-icon"></i>
-							<h2 className="py-3 background-heading">Experience</h2>
+							<h2 className="py-3 background-heading"><i class="fas fa-briefcase background-icon"></i> Experience</h2>
 							<ul className="p-0 m-0"> 
 								<li>
 									<h3 className="background-title">Bluedge USA</h3>
@@ -42,20 +40,19 @@ class Background extends Component{
 							</ul>
 						</div>
 						<div class="col-12 col-lg-4 text-left px-0">
-							<i class="far fa-thumbs-up background-icon"></i> 
-							<h2 className="py-3 background-heading">Passion</h2>
+							<h2 className="py-3 background-heading"><i class="far fa-thumbs-up background-icon"></i> Passion</h2>
 							<ul className="p-0 m-0">
 								<li>	
 									<h3 className="background-title">Web Development</h3>
-									<p className="background-description">I love to code</p>
+									<p className="background-description">Solving complicated problems and bringing ideas to life brings me great joy.</p>
 								</li>
 								<li>
 									<h3 className="background-title">Travel</h3>
-									<p className="background-description">I love exploring new cities and cultures. I also hope to backpack all the national parks</p>
+									<p className="background-description">I love exploring new cities and cultures.</p>
 								</li>
 								<li>
 									<h3 className="background-title">Photography/Videography</h3>
-									<p className="background-description">I love the different perspectives a camera gives me in creatively thinking about and reacting to the world around me. </p>
+									<p className="background-description">Photography also makes me creative and productive to practice patience and focus.</p>
 								</li>
 							</ul>
 						</div>
