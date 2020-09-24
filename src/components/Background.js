@@ -10,11 +10,52 @@ class Background extends Component{
 					<div class="col-12 text-center text-md-left pl-0">
 						<h2 class="contact-header text-uppercase py-lg-3 mb-0 py-1"><Fade top>Background</Fade></h2>
 					</div>
-					<div class="col-12 text-center py-4 py-lg-5">
-						<h3 className="contact-title mb-0"><Fade left>Get In Touch</Fade></h3>
-						<p class="m-0 contact-description pt-3 pt-lg-4">Learn more <a href="/about" className="contact-link">about me</a> or feel free to reach out to chat!</p>
-						<p class="m-0 contact-description">Living, learning, and leveling up one day at a time.</p>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<h2 className="py-3">Education</h2>
+						<ul>
+							<li>
+								<h3>Thinkful</h3>
+								<p>Full Stack Web Development</p>
+							</li>
+							<li>
+								<h3>UC Riverside</h3>
+								<p>Business Economics/Psychology</p>
+							</li>
+						</ul>
 					</div>
+					<div class="col-4">
+						<h2 className="py-3">Experience</h2>
+						<ul>
+							<li>
+								<h3>Bluedge USA</h3>
+								<p>Front End Developer</p>
+							</li>
+							<li>
+								<h3>Clicktool</h3>
+								<p>Front End Developer Freelance</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-4">
+						<h2 className="py-3">Passion</h2>
+						<ul>
+							<li>	
+								<h3>Web Development</h3>
+								<p>I love to code</p>
+							</li>
+							<li>
+								<h3>Travel</h3>
+								<p>I love exploring new cities and cultures. I also hope to backpack all the national parks</p>
+							</li>
+							<li>
+								<h3>Photography/Videography</h3>
+								<p>I love the different perspectives a camera gives me in creatively thinking about and reacting to the world around me. </p>
+							</li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
 		)
