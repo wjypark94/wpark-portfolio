@@ -3,7 +3,6 @@ ul {
 }
 
 .background-heading {
-	font-size: 25px;
 	font-family: 'Georgia';
 }
 
@@ -12,10 +11,6 @@ ul {
 	font-size: 16px;
 }
 
-.background-icon {
-	font-size: 25px;
-
-}
 
 .background-section {
   display: block;
@@ -48,9 +43,17 @@ ul {
 	letter-spacing: 1.5px;
 }
 
+
+.background-heading, .background-icon {
+	font-size: 20px;
+}
+
 @media screen and (min-width: 768px){
 	.background-header {
 		font-size: 0.875rem;
+	}
+	.background-heading, .background-icon {
+		font-size: 25px;
 	}
 }
 
