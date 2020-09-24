@@ -9,12 +9,13 @@ class Background extends Component{
 				<div class="container py-3 py-lg-5">
 					<div class="row mx-0 mx-lg-5 py-3">
 						<div class="col-12 text-center text-md-left pl-0">
-							<h2 class="contact-header text-uppercase py-lg-3 mb-0 py-1"><Fade top>Background</Fade></h2>
+							<h2 class="background-header text-uppercase py-lg-3 mb-0 py-1"><Fade top>Background</Fade></h2>
 						</div>
 					</div>
 					<div class="row mx-0 mx-lg-5">
-						<div class="col-4 text-left px-0">
-							<h2 className="py-3 background-header">Education</h2>
+						<div class="col-12 col-lg-4 text-left px-0">
+							<i class="fas fa-book-open background-icon"></i>
+							<h2 className="py-3 background-heading">Education</h2>
 							<ul className="p-0 m-0">
 								<li>
 									<h3 className="background-title">Thinkful</h3>
@@ -26,8 +27,9 @@ class Background extends Component{
 								</li>
 							</ul>
 						</div>
-						<div class="col-4 text-left px-0">
-							<h2 className="py-3 background-header">Experience</h2>
+						<div class="col-12 col-lg-4 text-left px-0">
+							<i class="fas fa-briefcase background-icon"></i>
+							<h2 className="py-3 background-heading">Experience</h2>
 							<ul className="p-0 m-0"> 
 								<li>
 									<h3 className="background-title">Bluedge USA</h3>
@@ -39,8 +41,9 @@ class Background extends Component{
 								</li>
 							</ul>
 						</div>
-						<div class="col-4 text-left px-0">
-							<h2 className="py-3 background-header">Passion</h2>
+						<div class="col-12 col-lg-4 text-left px-0">
+							<i class="far fa-thumbs-up background-icon"></i> 
+							<h2 className="py-3 background-heading">Passion</h2>
 							<ul className="p-0 m-0">
 								<li>	
 									<h3 className="background-title">Web Development</h3>

@@ -2,7 +2,7 @@ ul {
 	list-style-type: none;
 }
 
-.background-header {
+.background-heading {
 	font-size: 25px;
 	font-family: 'Georgia';
 }
@@ -12,3 +12,54 @@ ul {
 	font-size: 16px;
 }
 
+.background-icon {
+	font-size: 25px;
+
+}
+
+.background-section {
+  display: block;
+  position: relative;
+}
+
+.background-section:before {
+  content: "";
+  opacity: .95;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80) 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-section {
+	color: white;
+}
+
+.background-header {
+	font-family: Lato, sans-serif;
+	color: white;
+	font-size: 1.125rem;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+
+@media screen and (min-width: 768px){
+	.background-header {
+		font-size: 0.875rem;
+	}
+}
+
+.background-title {
+	font-weight: 600;
+}
+
+.background-description {
+	color: #b3b3b3;
+    line-height: 2;
+    word-spacing: 1px;
+}
