@@ -21,6 +21,7 @@ class Header extends Component {
 	
 							<h3>I'm a{' '}					
 							<Typical
+							className="typical"
 							steps={['Frontend Developer', 1500, 'Creative Designer', 1500, 'Collaborator', 1500, 'Photographer', 1500]}
 							loop={Infinity}
 							wrapper="span"
