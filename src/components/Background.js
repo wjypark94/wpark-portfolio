@@ -5,7 +5,7 @@ import '../componentStyles/Background.scss';
 class Background extends Component{
 	render(){
 		return (
-			<section className="background-section">
+			<section className="background-section" id="background">
 				<div class="container py-3">
 					<div class="row mx-0 mx-lg-5 py-3">
 						<div class="col-12 text-center text-md-left pl-0">
@@ -57,7 +57,7 @@ class Background extends Component{
 								</li>
 								<li>
 									<h3 className="background-title">Photography/Videography</h3>
-									<p className="background-description">Photography also makes me creative and productive to practice patience and focus.</p>
+									<p className="background-description">Photography allows me to be creative and productive to practice patience and focus.</p>
 								</li>
 							</ul>
 							</Fade>

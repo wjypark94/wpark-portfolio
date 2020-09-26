@@ -10,7 +10,7 @@ class Header extends Component {
 		let Link = Scroll.Link;
 		return (
 			<section className="header-section">
-				<div className="container pt-5 hero my-4 my-lg-5">
+				<div className="container pt-5 hero">
 			
 					<div className="row pt-3 pt-lg-4">
 						<div className="col-12 py-3 header-title">

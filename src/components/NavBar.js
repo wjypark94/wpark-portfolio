@@ -34,7 +34,7 @@ class NavBar extends Component {
 						<Navbar.Collapse id="responsive-navbar-nav">
 							<Nav className="ml-auto">
 								<Fade top>
-								<Nav.Link href="#work" className="text-uppercase">Work</Nav.Link>
+								<Nav.Link href="/#work" className="text-uppercase">Work</Nav.Link>
 								<Nav.Link href="/about" className="text-uppercase">About</Nav.Link>
 								<Nav.Link href="https://drive.google.com/file/d/1fDTHifZDmA5G6ltCooWCJCysNwXwQR0M/view?usp=sharing" target="_blank" className="text-uppercase">Resume</Nav.Link>
 								</Fade>
