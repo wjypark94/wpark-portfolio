@@ -62,7 +62,6 @@ class Background extends Component{
 							</ul>
 							</Fade>
 						</div>
-
 					</div>
 				</div>
 			</section>

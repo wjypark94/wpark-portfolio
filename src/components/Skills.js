@@ -27,7 +27,6 @@ class Skills extends Component {
 							</h2>
 						</div>
 					</div>
-
 					<div className="row mx-0 mx-lg-5 pb-5">
 						<Fade top>
 						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">

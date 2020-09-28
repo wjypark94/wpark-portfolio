@@ -65,9 +65,7 @@ class RecentWork extends Component {
 				</Fade>
 			</div>
 		)
-
 	}
-
 }
 
 export default RecentWork;

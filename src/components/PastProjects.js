@@ -60,7 +60,6 @@ class PastProjects extends Component{
 							</div>
 						</div>
 						<div className="col-12 col-md-6 px-0 pr-md-2 pb-3">
-					
 							<div className="card h-100">
 								<div className="card-body">
 									<img className="img-fluid project-image" src={HotCold} alt="hotcold"/>	
@@ -80,7 +79,6 @@ class PastProjects extends Component{
 									</div>
 								</div>
 							</div>
-						
 						</div>
 						<div className="col-12 col-md-6 px-0 pl-md-2 pb-3">
 							<div className="card h-100">

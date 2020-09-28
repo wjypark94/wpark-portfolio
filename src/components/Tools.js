@@ -26,7 +26,6 @@ class Tools extends Component {
 							</h2>
 						</div>
 					</div>
-
 					<div className="row mx-0 mx-lg-5 pb-5">
 						<Fade top>
 						<div className="col-6 col-lg-3 p-3 skills-border-right skills-border-bottom">
@@ -77,12 +76,8 @@ class Tools extends Component {
 							<img className="icon-img img-fluid mt-lg-3" src={responsiveIcon} alt="responsive-icon"/>
 							<h2 className="py-3 skills-title">Responsive Design</h2>
 						</div> 
-
 						</Fade>
-
-
 					</div>
-				
 				</div>
 			</section>
 		)

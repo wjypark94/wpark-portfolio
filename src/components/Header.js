@@ -46,7 +46,6 @@ class Header extends Component {
 								</Fade>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</section>
