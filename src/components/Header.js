@@ -3,7 +3,6 @@ import '../componentStyles/Header.scss';
 import Scroll from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import Avatar from '../images/avatar.png';
-import Ymy from '../images/ymy.png';
 import Typical from 'react-typical'
 
 class Header extends Component {
@@ -16,9 +15,7 @@ class Header extends Component {
 					<div className="row pt-3 pt-lg-4">
 						<div className="col-12 py-3 header-title">
 							<Fade top>
-
 							<h2>Hi, I'm <span>Will Park</span></h2>
-	
 							<h3>I'm a{' '}					
 							<Typical
 							className="typical"
@@ -28,15 +25,15 @@ class Header extends Component {
 							/></h3>
 							</Fade>
 						</div>
-						<div class="col-12 text-center">
+						<div className="col-12 text-center">
 							<Fade bottom>
-							<img className="work-img img-fluid" src={Avatar} alt="ymy"/>
+							<img className="work-img img-fluid" src={Avatar} alt="Avatar"/>
 							</Fade>
 						</div>
-						<div class="col-12 py-3">
-							<a class="px-2" href="mailto:wjypark94@gmail.com" target="_blank"><i class="icon fa fa-envelope"></i></a>
-							<a class="px-2" href="https://github.com/wjypark94" target="_blank"><i class="icon fa fa-github-alt"></i></a>
-							<a class="px-2" href="https://www.linkedin.com/in/wjypark" target="_blank"><i class="icon fa fa-linkedin"></i></a>
+						<div className="col-12 py-3">
+							<a className="px-2" href="mailto:wjypark94@gmail.com" target="_blank" rel="noopener noreferrer"><i className="icon fa fa-envelope"></i></a>
+							<a className="px-2" href="https://github.com/wjypark94" target="_blank" rel="noopener noreferrer"><i className="icon fa fa-github-alt"></i></a>
+							<a className="px-2" href="https://www.linkedin.com/in/wjypark" target="_blank" rel="noopener noreferrer"><i className="icon fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div className="row justify-content-center pt-5">
@@ -53,7 +50,6 @@ class Header extends Component {
 					</div>
 				</div>
 			</section>
-
 		)
 	}
 }

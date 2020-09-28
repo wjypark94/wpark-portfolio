@@ -1,18 +1,4 @@
 import React, { Component } from 'react';
-
-import javascriptIcon from '../images/javascript-icon.png';
-import jqueryIcon from '../images/jquery-icon.png';
-import reactIcon from '../images/react-icon.png';
-import htmlIcon from '../images/html-icon.png';
-import cssIcon from '../images/css-icon.png';
-import bootstrapIcon from '../images/bootstrap-icon.png';
-import nodeIcon from '../images/node-icon.png';
-import expressIcon from '../images/express-icon.png';
-import mongoIcon from '../images/mongo-icon.png';
-import liquidIcon from '../images/liquid-icon.png';
-import gitIcon from '../images/git-icon.png';
-import passportIcon from '../images/passport-icon.png';
-
 import githubIcon from '../images/github-icon.png';
 import npmIcon from '../images/npm-icon.png';
 import babelIcon from '../images/babel-icon.png';

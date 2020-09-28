@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../componentStyles/Skills.scss';
-
 import javascriptIcon from '../images/javascript-icon.png';
 import jqueryIcon from '../images/jquery-icon.png';
 import reactIcon from '../images/react-icon.png';

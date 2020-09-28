@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../componentStyles/NavBar.scss';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import Scroll from "react-scroll";
-
-
 
 class NavBar extends Component {
 	state = {
@@ -24,7 +21,6 @@ class NavBar extends Component {
 	}
 
 	render(){
-		let Link = Scroll.Link;
 		return (
 			<div className="container-fluid px-0">
 					<Navbar collapseOnSelect expand="lg" variant="light" fixed="top" className="active" style={{background: this.state.color}}>
