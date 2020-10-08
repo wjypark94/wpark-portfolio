@@ -31,7 +31,7 @@ class NavBar extends Component {
 								<Fade top>
 								<Nav.Link href="/#work" className="text-uppercase">Work</Nav.Link>
 								<Nav.Link href="/about" className="text-uppercase">About</Nav.Link>
-								<Nav.Link href="https://drive.google.com/file/d/1RbiPUmY1xghiieEBtLjsom3x20lP8uQg/view?usp=sharing" target="_blank" className="text-uppercase">Resume</Nav.Link>
+								<Nav.Link href="https://drive.google.com/file/d/1XBz46PEnGe1R5ws2BOneutMYyIcq50IM/view?usp=sharing" target="_blank" className="text-uppercase">Resume</Nav.Link>
 								</Fade>
 							</Nav>
 						</Navbar.Collapse>

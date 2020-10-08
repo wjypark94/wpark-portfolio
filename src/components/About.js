@@ -36,7 +36,7 @@ class About extends Component {
 								</Fade>
 							</div>
 							<div className="col-12 text-center text-lg-left">
-								<a className="btn btn-primary resume-btn" href="https://drive.google.com/file/d/1RbiPUmY1xghiieEBtLjsom3x20lP8uQg/view?usp=sharing" target="_blank" rel="noopener noreferrer">VIEW RESUME</a>
+								<a className="btn btn-primary resume-btn" href="https://drive.google.com/file/d/1XBz46PEnGe1R5ws2BOneutMYyIcq50IM/view?usp=sharing" target="_blank" rel="noopener noreferrer">VIEW RESUME</a>
 							</div>
 						</div>
 					</div>
